@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 a change had been made to test git command
+a second change to the file!
 """
 
 """
@@ -16,7 +17,7 @@ maximum number of urls have been visited.
 from bs4 import BeautifulSoup
 import re, urllib.parse, urllib.request
 
-url="http://www.baidu.com/" # initial URL
+url="http://www.google.com/" # initial URL
 maxNumUrl=50 # maximum number of URLs to visit 
 keywords=['finance', 'engineering', 'business', 'research']
 
